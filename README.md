@@ -17,16 +17,10 @@ A fast web fuzzer written in Go.
 
 ## Installation
 
-- [Download](https://github.com/ffuf/ffuf/releases/latest) a prebuilt binary from [releases page](https://github.com/ffuf/ffuf/releases/latest), unpack and run!
-
-  _or_
-- If you are on macOS with [homebrew](https://brew.sh), ffuf can be installed with: `brew install ffuf`
+- If you have recent go compiler installed: `go install github.com/0xdotgz/ffuf/v2@latest` (the same command works for updating)
   
   _or_
-- If you have recent go compiler installed: `go install github.com/elliotwellick/ffuf/v2@latest` (the same command works for updating)
-  
-  _or_
-- `git clone https://github.com/elliotwellick/ffuf ; cd ffuf ; go get ; go build`
+- `git clone https://github.com/0xdotgz/ffuf ; cd ffuf ; go get ; go build`
 
 Ffuf depends on Go 1.16 or greater.
 
